@@ -1,0 +1,217 @@
+
+html{
+    width: 100%;
+    height: auto;
+}
+body {
+    width: 100%;
+    height: auto;
+    background: url('images/background.jpg') no-repeat ;
+}
+
+.container {
+    width: 100%;
+    
+    box-sizing: content-box;
+    position: static;
+}
+
+.logo {
+    position: absolute;
+    top:69%;
+    left: 50%;
+   transform: translate(-50%,-50%); 
+}
+
+
+.logo i{
+    font-size:70px;
+color:#fff;
+    padding: 3px;
+    position:absolute;
+}
+.font-move1{
+    top:20%;
+    left: 42%;
+}
+.font-move2{
+    top:55%;
+    left:42%;
+    
+}
+
+.font-move3{
+    top:40%;
+    left:32%;
+    
+}
+
+.font-move4{
+    top:39.99%;
+    left:56.5%;
+    position: fixed;
+    
+}
+
+#particles-js{
+    width: 100%;
+  height: 100%;
+  background-color: inherit;
+  background-image: url('');
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+    position: absolute;
+}
+
+canvas{
+    display: block;
+    vertical-align: bottom;
+}
+
+.particles-js-canvas-el{
+  width: 100%;
+  height: 100%;   
+}
+
+
+.hvr-bounce-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #e84c3d;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
+  color: white;
+}
+.hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+ul li a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid-1 {
+  box-sizing: border-box;
+    width: 900px;
+    height:690px;
+    background: transparent;
+    position:absolute;
+    top:30%;
+    left:49%;
+    border:0.5px solid #e84c3d;
+    background:#e84c3d;
+}
+
+.grid-1 p{
+    font-family: 'Open Sans',sans-serif;
+    font-size:20px;
+    line-height: 29px;
+    color: #fff;
+    padding: 15px;
+    margin:10px;
+   position: absolute;
+    top:80px;
+}
+
+.bg-change {
+    background: url('images/background2.png');
+    
+}
+
+.bg-opacity {
+    width: 100%;
+    height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); 
+    position: absolute;
+    top:0;
+    left: 0;
+
+}
+
+.a10 {
+   text-align: center;
+    position: relative;
+    width: 100%;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 93px;
+    top:-199px;
+    color: #fff;
+}
+
+.hvr-icon-spin {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+position: relative;
+  padding-right: 2.2em;
+}
+.hvr-icon-spin:before {
+  content: "\f021";
+ position: absolute;
+margin: 0
+  right: 1em;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+.hvr-icon-spin:hover:before, .hvr-icon-spin:focus:before, .hvr-icon-spin:active:before {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}

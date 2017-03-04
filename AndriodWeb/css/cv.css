@@ -1,0 +1,167 @@
+
+.row{
+  margin-bottom: 0!important;
+}
+
+/* Screen Adjustment */
+@media (max-width: 3000px) {
+
+}
+
+@media (min-width: 1500px) {
+
+}
+@media (max-width: 1440px) {
+
+  .hamburger.is-open .hamb-top {
+    background-color: #FFF!important;
+} 
+
+.hamburger.is-open .hamb-bottom {
+    background-color: #FFF!important;
+}
+
+}
+
+@media (min-height: 767px) {
+
+}
+@media (max-height: 768px) {
+
+}
+@media (max-height: 668px) {
+
+}
+@media (max-height: 568px) {
+
+}
+ @media (min-width: 767px) {
+ 
+}
+@media (max-width: 994px) {
+
+}
+
+@media (max-width: 1266px){
+
+  .hamburger.is-open .hamb-top {
+    background-color: #FFF!important;
+} 
+
+.hamburger.is-open .hamb-bottom {
+    background-color: #FFF!important;
+}
+
+.skill-pad {
+    padding: 0px 50px!important;
+    margin-left: 66px!important;
+}
+#skills span {
+    left: -150px!important;
+  }
+}
+
+@media (max-width: 1024px){
+
+.hamburger.is-closed .hamb-top {
+    background-color: #FFF!important;
+} 
+.hamburger.is-closed .hamb-middle {
+    background-color: #FFF!important;
+} 
+.hamburger.is-closed .hamb-bottom {
+    background-color: #FFF!important;
+}
+
+  .col-md-offset-1 {
+    margin-left: 15.33333333%!important;
+}
+
+  .hamburger.is-open .hamb-top {
+    background-color: #FFF!important;
+} 
+
+.hamburger.is-open .hamb-bottom {
+    background-color: #FFF!important;
+}
+
+.cv-bg {
+    width: 100%!important;
+    padding: 0 12%!important;
+}
+.skill-pad {
+    padding: 0px 0px!important;
+    margin-left: 100px!important;
+}
+
+}
+@media (max-width: 992px){
+.cv-bg {
+    width: 100%!important;
+    padding: 0 12%!important;
+}
+.skill-pad {
+    padding: 0px 0px!important;
+    margin-left: 150px!important;
+}
+.divider2{
+  width: 100%!important;
+}
+
+.hamburger.is-closed .hamb-top {
+    background-color: #FFF!important;
+} 
+.hamburger.is-closed .hamb-middle {
+    background-color: #FFF!important;
+} 
+.hamburger.is-closed .hamb-bottom {
+    background-color: #FFF!important;
+}
+}
+
+
+@media (max-width: 768px){
+
+.hamburger.is-closed .hamb-top {
+    background-color: #FFF!important;
+} 
+.hamburger.is-closed .hamb-middle {
+    background-color: #FFF!important;
+} 
+.hamburger.is-closed .hamb-bottom {
+    background-color: #FFF!important;
+}
+.cv-bg {
+    width: 100%!important;
+    padding: 0 12%!important;
+}
+.skill-pad {
+    padding: 0px 0px!important;
+    margin-left: 140px!important;
+    margin-right: -20px;
+}
+  .col-md-offset-1 {
+    margin-left: 0!important;
+}
+
+}
+@media (max-width: 425px){
+
+.hamburger.is-closed .hamb-top {
+    background-color: #FFF!important;
+} 
+.hamburger.is-closed .hamb-middle {
+    background-color: #FFF!important;
+} 
+.hamburger.is-closed .hamb-bottom {
+    background-color: #FFF!important;
+}
+
+}
+
+@media (max-width: 375px) {
+
+}
+@media (max-width:320px) {
+
+}

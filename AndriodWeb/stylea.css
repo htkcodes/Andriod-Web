@@ -1,0 +1,16 @@
+@import 'component.css';
+
+.bg-opacity {
+    width: 100%;
+    height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); 
+    position: absolute;
+    top:0;
+    left: 0;
+
+}
+
+.bg-change {
+    background: url('images/background2.png');
+    
+}

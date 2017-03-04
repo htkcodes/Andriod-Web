@@ -1,0 +1,110 @@
+<!--
+Changelog
+
+October 22,2016:
+Changed image overlay text
+Added Indentation
+Changed Gallery Caption Color
+Added toastr plugin
+Added Scroll Plugin
+Fixed Scroll Lag/Jitter
+Changed logo effects
+-->
+
+<!--
+Plugins and Vectors Used
+
+*Some links maybe repeated*
+
+*Plugins*
+https://codeseven.github.io/toastr/
+http://www.jqueryscript.net/animation/jQuery-Plugin-For-Adding-Momentum-Scrolling-To-Web-Content-scrollEasing.html
+https://github.com/blivesta/animsition
+http://vincentgarreau.com/particles.js/
+https://daneden.github.io/animate.css/ *Modified a little by me*
+
+*Vectors*
+http://www.freepik.com/free-icon/nougat_877057.htm#term=nougat&page=1&position=0
+http://www.freepik.com/index.php?goto=74&idfoto=789672&term=lollipop
+http://www.freepik.com/free-icon/jelly-beans_919350.htm#term=jellybean&page=1&position=1
+http://www.freepik.com/free-vector/gingerbread-cookies-for-christmas_760490.htm#term=ginger bread&page=1&position=4
+http://www.freepik.com/free-vector/hand-drawn-birthday-food-and-decoration_795936.htm#term=cupcake&page=1&position=33
+https://www.vecteezy.com/vector-art/84939-camp-food-vector-icons
+https://www.vecteezy.com/vector-art/118400-free-sweet-foods-vector-icon
+https://www.vecteezy.com/vector-art/82998-honey-vector-icons
+https://www.vecteezy.com/vector-art/103137-snow-cone-ice-cream-vector-set
+http://www.brandsoftheworld.com/logo/kit-kat
+
+
+-->
+
+<!--
+Author:Reneicko Getten
+School:Northern Caribbean University
+-->
+<!DOCTYPE html>
+<html>
+    <!--Particle JS Container-->
+<div id="particles-js"></div>
+
+<head>
+<!--Style Sheets -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="./animate.css" type="text/css">
+    <link href="./jquery.fatNav.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!--Style Sheets -->
+</head>
+    
+<title>HOME</title>
+
+<body class="bg-init">
+    <div class="animsition-overlay ">
+        <div id="container">
+            <!--LOGO-->
+            <div class="logo">
+                <img src="./images/logo.png" width="400" alt="logo">
+
+                <i class="fa fa-mobile font-move3 animated fadeInLeftBig hvr-icon-spin"  aria-hidden="true"></i>
+                <i class="fa fa-android font-move1 animated pulse infinite" aria-hidden="true"></i>
+                <i class="fa fa-google font-move2 animated fadeInUpBig hvr-icon-spin" aria-hidden="true"></i>
+                <i class="fa fa-check-circle font-move4 animated fadeInRightBig hvr-icon-spin"  aria-hidden="true"></i>
+            </div>
+   <!--LOGO-->
+            
+            <!--Navigation Bar-->
+            <div class="fat-nav">
+                <div class="fat-nav__wrapper">
+
+                    <ul>
+
+
+                        <li><a class="hvr-bounce-to-right" href="index.html">HOME</a></li>
+                        <li><a class="hvr-bounce-to-right" href="andriod.html">ANDRIOD</a></li>
+                        <li><a class="hvr-bounce-to-right" href="gallery.html">GALLERY</a></li>
+                    </ul>
+                </div>
+            </div>
+              <!--Navigation Bar-->
+        </div>
+        
+<!--JQuery File-->
+        <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="./js/jquery.fatNav.js"></script><!--Navigation Script-->
+
+        <script> //Script Call
+            (function () {
+
+                $.fatNav();
+
+            }());
+        </script>
+        
+        <!--Scripts-->
+        <script src="./particles.js"></script> 
+        <script src="./app.js"></script>
+        <script src="./js/anim.js"></script>
+    </div>
+</body>
+</html>
